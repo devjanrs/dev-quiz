@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" 
+    rel="stylesheet"
+    >
+    <script src="script.js" defer></script>
+    <title>Game Dev</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="form">
+            <h3>Game quiz</h3>
+            <h4 id="pergunta"></h4>
+
+            <p id="resposta">
+
+                <label>
+                    <input type="radio" name="question" id="left">  
+                    <span id="esquerda"></span>
+                </label>
+
+                <label>
+                    <input type="radio" name="question" id="right"> 
+                    <span id="direita"></span>
+                </label>
+                
+            </p>
+        </div>
+
+        <button id="next" onclick="avançar()">Próximo</button>
+    </div>
+</body>
+</html>

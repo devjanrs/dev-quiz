@@ -1,0 +1,15 @@
+/* Geral */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "ubuntu", sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, rgb(24, 5, 107) 0%, #8df596 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
